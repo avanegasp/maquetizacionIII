@@ -1,0 +1,114 @@
+/* Wrapper */
+.home-wrapper{
+	background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.0) ), url('../img/background.jpg') no-repeat center top; 
+	background-size: cover;
+	color: white;
+	background-attachment: fixed;
+ }
+ /* Wrapper */
+
+ /* Navbar */
+.logo a{
+	float: right;
+	padding: 15px;
+	text-decoration: none;
+	color: red;
+	background: white;
+
+}
+
+.logo img {
+	width: 80px;
+}
+/* Navbar */
+/* Home */
+.presentation h1 {
+	text-align: center;
+	font-size: 50px;
+}
+
+.name h1{
+	padding: 80px;
+}
+
+.presentation p{
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.presentation .divider {
+	width: 200px;
+	border-top: 5px solid #fed136;
+	margin: 0 auto;
+	margin-bottom: 80px; 
+}
+.social {
+	text-align: center;
+	padding: 80px;
+}
+
+.presentation .social a {
+	color: white;
+	display: inline-block;
+	border-radius: 50%;
+	background-color: black;
+	font-size: 24px;
+	font-weight: bold;
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+	margin-right: 10px;
+	-webkit-transition:all .3s;
+	-moz-transition:all .3s;
+	transition: all .3s;
+}
+
+.presentation .social a:hover {
+	background-color: #fed136;
+}
+
+/* Home */
+
+/* Acerca de mi */
+
+.titulo h2 {
+	background: #7CFAF7;
+	font-size: 20px;
+	padding: 15px;
+}
+
+.foto img {
+	width: 100%;
+}
+
+/* Acerca de mi */
+
+/* Portafolio */
+
+.fotos h2 {
+	background: #7CFAF7;
+	font-size: 20px;
+	padding: 15px;
+}
+
+.fotos img {
+	width: 300px;
+	height: 340px;
+}
+/* Portafolio */
+/* Contacto */
+.contacto h2 {
+	background: #7CFAF7;
+	font-size: 20px;
+	padding: 15px;
+}
+
+.wrapper{
+	background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.0) ), url('../img/background2.jpg') no-repeat center top; 
+	background-size: cover;
+	color: white;
+	background-attachment: fixed;
+ }
+ /* Contacto */
