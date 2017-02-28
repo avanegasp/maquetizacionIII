@@ -9,12 +9,12 @@
 
  /* Navbar */
 .logo a{
+	margin-right: 30px;
 	float: right;
 	padding: 15px;
 	text-decoration: none;
-	color: red;
+	color: black;
 	background: white;
-
 }
 
 .logo img {
@@ -77,6 +77,12 @@
 	background: #7CFAF7;
 	font-size: 20px;
 	padding: 15px;
+	color: white;
+}
+
+.parrafo p {
+	margin-top: 20px;
+	font-size: 15px;
 }
 
 .foto img {
@@ -91,24 +97,90 @@
 	background: #7CFAF7;
 	font-size: 20px;
 	padding: 15px;
+	color: white;
 }
 
+.fotos h4 {
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+.fotos p {
+	margin-bottom: 20px;
+	margin-left: 30px;
+	font-size: 15px;
+}
+
+.fotos2 h4 {
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 30px;
+}
+
+.fotos2 p {
+	margin-bottom: 20px;
+	margin-left: 30px;
+	font-size: 15px;
+}
 .fotos img {
-	width: 300px;
+	width: 320px;
 	height: 340px;
+	margin-left: 20px;
 }
 /* Portafolio */
 /* Contacto */
+.wrapper .container input {
+	margin-left: 220px;
+}
+
 .contacto h2 {
 	background: #7CFAF7;
 	font-size: 20px;
 	padding: 15px;
+	color: white;
+}
+
+.contacto li {
+	list-style: none;
+}
+
+.contacto .name {
+	margin-top: 60px;
+}
+.contacto input {
+	margin-left: 20px;
+	margin-top: 20px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.contacto .mensaje {
+	padding: 60px;
+	margin-bottom: 30px;
+}
+
+.contacto button {
+	padding: 15px 80px;
+	margin-left: 600px;
+	margin-bottom: 50px;
+	color: black;
 }
 
 .wrapper{
 	background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.0) ), url('../img/background2.jpg') no-repeat center top; 
 	background-size: cover;
-	color: white;
 	background-attachment: fixed;
  }
  /* Contacto */
+
+ /* footer */
+ 	.footer li {
+ 		font-weight: bold;
+ 		list-style: none;
+ 		text-align: center;
+ 		font-size: 17px;
+ 		padding: 20px;
+ 	}
+ /* footer */
